@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: none
+}
+
+li,ul {
+    list-style: none
+}
+
+a {
+    text-decoration: none
+}
+
+.layout {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both
+}

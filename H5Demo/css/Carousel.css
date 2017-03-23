@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font: 14px/1.5 '微软雅黑';
+    background-color: rgba(13,13,23, 0.8);
+}
+
+ul,li{
+    list-style: none;
+}
+
+.carousel{
+    position: relative;
+    max-width: 500px;
+    margin: 10% auto;
+    /*outline: 1px solid red;*/
+}
+.carousel .img-ct > li{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.carousel .img-ct img{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(255,255,255,0.2);
+}
+
+
+
+@keyframes fade {
+    0% {opacity: 0;}
+    5% {opacity: 1;}
+    20% {opacity: 1;}
+    25% {opacity:0;}
+}
+.carousel .img-ct > li:nth-child(1){
+    animation: fade 12s linear 0s infinite;
+}
+.carousel .img-ct > li:nth-child(2){
+    animation: fade 12s linear 3s infinite;
+}
+.carousel .img-ct > li:nth-child(3){
+    animation: fade 12s linear 6s infinite;
+}
+.carousel .img-ct > li:nth-child(4){
+    animation: fade 12s linear 9s infinite;
+}

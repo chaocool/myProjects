@@ -1,0 +1,51 @@
+.fa-map-marker:before {
+    color: red;
+    padding: 0 4px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.fa-search:before{
+    position: absolute;
+    left: 490px;
+    top: 0;
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+    height: 35px;
+    line-height: 35px;
+    border: none;
+    background-color: #f10215;
+    font-size: 20px;
+    color: #fff;
+}
+
+.fa-shopping-cart:before {
+
+    margin-right: 3px;
+    font-size: 16px;
+    color: #f10214;
+}
+
+#first-screen .left .main-menu .menu-on .menu-on-block .menu-on-left .left-title .fa-angle-right:before {
+    background: #7c7171;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+}
+#first-screen .left .main-menu .menu-on .menu-on-block .menu-on-left .left-item-list .fa-angle-right:before {
+    background: none;
+    height: 24px;
+    line-height: 24px;
+    display: inline-block;
+    margin-left: 4px;
+}
+
+
+
+
